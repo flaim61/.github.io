@@ -1077,12 +1077,13 @@ h6{
 		font-style: normal;
 		font-weight: normal;
 		font-size: 4vh;
-		line-height: 130%;
+		line-height: 100%;
 		/* or 31px */
 		color: #A9A9A9;
 		margin-bottom: 5vh;
 		width: auto !important;
-		margin-top: 3vh;
+		margin-top: 5vh;
+		padding-top: 3vh !important;
 	}
 	.flexItemIn2Part img{
 		padding-right: 5vw;
@@ -1090,6 +1091,9 @@ h6{
 	.flexItemIn2Part p{
 		margin-top: -0.7vh;
 		font-size: 3.2vh;
+	}
+	.blockTwoMainContentMain{
+		border-bottom: none;
 	}
 	.blockTwoPartTwoFlexRow{
 		width: 100%;
@@ -1100,6 +1104,13 @@ h6{
 		padding-left: 3vh;
 		height: 60vh !important;
 	}
+	.right-ask{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-top: -3vh;
+	}
+
 	.slide h4{
 		font-family: HelveticaNeueCyr;
 		font-style: normal;
@@ -1134,9 +1145,7 @@ h6{
 	.blockFourRealyContent{
 		margin-top: 7vh;
 	}
-	.rowBlockFour img{
-		margin-top: -7vh;
-	}
+
 	.blockFourRealyContent{
 		border: none;
 	}
